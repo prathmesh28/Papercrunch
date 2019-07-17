@@ -1,0 +1,653 @@
+<resources>
+    <string name="app_name">Appit</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_report">Report</string>
+    <string name="menu_share">Share</string>
+    <string name="aboutus">About Us</string>
+
+    <string name="hello_blank_fragment1half">
+        <big><b>What is Android?</b></big>\n
+        <b>o</b>    Android is a complete set of software for mobile devices such as tablet computers, notebooks, smartphones, electronic book readers, set-top boxes etc.\n
+        <b>o</b>    It contains a Linux-based Operating System, middleware and key mobile applications.\n
+<b>o</b>    It can be thought of as a mobile operating system. But it is not limited to mobile only. It is currently used in various devices such as mobiles, tablets, televisions etc.\n
+       \n\n
+        <big><b>Features of Android </b></big>\n
+        1) It is open-source.\n
+2) Anyone can customize the Android Platform.\n
+3) There are a lot of mobile applications that can be chosen by the consumer.\n
+4) It provides many interesting features like weather details, opening screen, live RSS (Really Simple Syndication) feeds etc.\n
+5) It provides support for messaging services(SMS and MMS), web browser, storage (SQLite), connectivity (GSM, CDMA, Blue Tooth, Wi-Fi etc.), media, handset layout etc.\n
+\n\n
+
+  <big><b>History of Android</b> </big>      \n
+    <b>o</b>       The history and versions of android are interesting to know. The code names of android ranges from A to P currently, such as Aestro, Blender, Cupcake, Donut, Eclair, Froyo, Gingerbread, Honeycomb, Ice Cream Sandwitch, Jelly Bean, KitKat and Lollipop,Marshmallow,Noughat,Oreo,Pie. \n<b>o</b>   Let\'s understand the android history in a sequence.\n
+        1) Initially, Andy Rubin founded Android Incorporation in Palo Alto, California, United States in October, 2003.\n
+        2) In 17th August 2005, Google acquired android Incorporation. Since then, it is in the subsidiary of Google Incorporation.\n
+        3) The key employees of Android Incorporation are Andy Rubin, Rich Miner, Chris White and Nick Sears.
+\n4) Originally intended for camera but shifted to smart phones later because of low market for camera only.
+\n5) Android is the nick name of Andy Rubin given by coworkers because of his love to robots.
+\n6) In 2007, Google announces the development of android OS.
+\n7) In 2008, HTC launched the first android mobile.
+        \n
+        \n
+        \n
+ <big><b>Android Architecture </b></big>
+\n
+        <b>o</b>   Android architecture or Android software stack is categorized into five parts:\n
+        <ul><li>Linux kernel</li>\n
+        <li>Native libraries (middleware)</li>\n
+            <li>Android Runtime</li>\n
+            <li>Application Framework</li>\n
+<li>Applications</li>
+        </ul>
+ \n
+        \n
+
+
+    </string>
+
+    <string name="hello_blank_fragment1full">
+        <big><b>How to develop Android Apps?</b></big>
+        \n
+         Creating a simple Android App using Android Studio\n
+        <ul><li>
+        Create the new android project\n</li>
+        <li>Write the message (optional)\n</li>
+            <li>Run the android application\n</li></ul>
+\n
+
+    </string>
+
+
+    <string name="hello_blank_fragment2">
+
+        <big><b>Android Studio Installation</b></big>\n
+
+        1.Download Jdk From \n https://www.oracle.com/technetwork/java/javase/downloads/index.html .\n
+2.Install Java development kit previously downloaded.\n
+3.Download latest version of Android Studio from \n https://developer.android.com/studio .\n
+4. install Android studio and include the Sdk location.\n
+\n\n
+        <big><b>Hello World Application</b></big>\n
+        <b>o</b>   In this page, you will know how to create the simple hello android application. We are creating the simple example of android using the Eclipse IDE. For creating the simple example:
+\n
+    1.Create the new android project\n
+    2. Write the message (optional)\n
+    3.Run the android application\n
+        \n\n
+        <big><b>Using Android Studio</b></big>\n
+        <ul><li>Create a Simple Application</li>\n
+            <li>Compilation Process</li>\n
+            <li>Building an APK</li>\n
+            <li>Connecting the phone</li>\n
+            <li>Running the App</li>\n
+            <li>Debugging the App</li>\n
+        </ul>\n\n
+
+    </string>
+
+
+    <string name="hello_blank_fragment3half">
+        <big><b>
+            Android Widgets
+        </b></big>\n
+
+            <b>o</b>   There are various Android Widgets such as:\n
+        <ul><li>Button</li>\n
+            <li>EditText</li>\n
+            <li>AutoComplete</li>\n
+            <li>TextView</li>\n
+            <li>ToggleButton</li>\n
+            <li>DatePicker</li>\n
+            <li>TimePicker</li>\n
+            <li>ProgressBar</li>\n
+        </ul>\n\n
+
+        <big><b>Android Button</b></big>\n
+        <b>o</b>   Android Button represents a push-button. The android.widget.Button is subclass of TextView class and CompoundButton is the subclass of Button class.\n
+<b>o</b>   There are different types of buttons in android such as:\n
+<ul><li>RadioButton</li>\n
+        <li>ToggleButton</li>\n
+    <li>CompoundButton</li></ul>
+\n\n
+        <big><b>Button Inheritance</b></big>\n
+
+    </string>
+    <string name="hello_blank_fragment3full">\n\n
+        <big><b>Android Button Example with Listener</b></big>\n
+        <ul><li>
+            Here, we are going to create two textfields and one button for sum of two numbers. If user clicks button, sum of two input values is displayed on the Toast.\n</li>
+<li>We can perform action on button using different types such as calling listener on button or adding onClick property of button in activity\'s XML file.\n
+        </li></ul>\n\n
+
+        <big><b>Android Toast</b></big>\n
+        <b>o</b>   Android Toast can be used to display information for the short period of time. A toast contains message to be displayed quickly and disappears after sometime.\n
+<b>o</b>   The android.widget.Toast class is the subclass of java.lang.Object class.\n
+<b>o</b>   Constants of Toast class :-\n
+<b>o</b>   There are only 2 constants of Toast class which are given below.\n
+
+1. public static final int LENGTH_LONG :-\n displays view for the long duration of time.\n
+
+2. public static final int LENGTH_SHORT :-\n displays view for the short duration of time.\n
+\n\n
+        <big><b>Android CheckBox</b></big>\n
+        <ul><li>Android CheckBox is a type of two state button either checked or unchecked.</li>\n
+            <li>There can be a lot of usage of checkboxes. For example, it can be used to know the hobby of the user, activate/deactivate the specific action etc.</li>\n
+            <li>Android CheckBox class is the subclass of CompoundButton class.</li>\n
+        </ul>
+        \n\n
+        <big><b>Check Box Inheritance</b></big>\n
+    </string>
+    <string name="hello_blank_fragment3last">
+        \n\n
+        <big><b>Android CheckBox Class</b></big>\n
+        <b>o</b>   The android.widget.CheckBox class provides the facility of creating the CheckBoxes.\n
+<b>o</b>   Methods of CheckBox class:\n
+<b>o</b>   There are many inherited methods of View, TextView, and Button classes in the CheckBox class. Some of them are as follows:\n
+<ul><li> public boolean isChecked(): Returns true if it is checked otherwise false.</li>\n
+    <li>public void setChecked(boolean status): Changes the state of the CheckBox.</li>\n
+</ul>\n\n
+    </string>
+    <string name="hello_blank_fragment4">
+        <big><b>Android Radio Button</b></big>\n
+        <ul><li>RadioButton is a two states button which is either checked or unchecked. If a single radio button is unchecked, we can click it to make checked radio button. Once a radio button is checked, it cannot be marked as unchecked by user.</li>\n
+            <li>RadioButton is generally used with RadioGroup. RadioGroup contains several radio buttons, marking one radio button as checked makes all other radio buttons as unchecked.</li>\n
+            <li>Example of Radio Button: Implement single radio button separately as well as radio button inÂ RadioGroup.</li>\n
+       </ul> \n\n
+
+        <big><b>Android Spinner</b></big>\n
+        <ul><li>Android Spinner is like the combo box of AWT or Swing. It can be used to display the multiple options to the user in which only one item can be selected by the user.Android spinner is like the drop down menu with multiple values from which the end user can select only one value.</li>\n
+            <li>Android spinner is associated with AdapterView. So you need to use one of the adapter classes with spinner.</li>\n
+            <li>Android Spinner class is the subclass of AsbSpinner class.</li>\n
+        </ul>\n\n
+
+        <big><b>Android Spinner Inheritance</b></big>\n
+    </string>
+    <string name="hello_blank_fragment4half">\n\n
+        <big><b>Android Spinner Example</b></big>\n
+        <b>o</b>   In this example, we are going to display the country list. You need to use ArrayAdapter class to store the country list.\n
+<b>o</b>   A user interface element that displays text to the user is know as TextView.\n
+\n
+  => java.lang.Object\n
+         ↳ 	android.view.View\n
+  	                 ↳ 	android.widget.TextView\n
+        \n\n
+
+        <big><b>Android AlertDialog</b></big>\n
+        <ul><li>Android AlertDialog can be used to display the dialog message with OK and Cancel buttons. It can be used to interrupt and ask the user about his/her choice to continue or discontinue.</li>\n
+            <li>Android AlertDialog is composed of three regions: title, content area and action buttons.</li>\n
+            <li>Android AlertDialog is the subclass of Dialog class.</li>\n
+        </ul>\n\n
+
+        <big><b>AlertDialog Inheritance</b></big>\n
+    </string>
+    <string name="hello_blank_fragment4full">\n\n
+        <big><b>Methods of AlertDialog Class</b></big>\n
+        <ul><li>public AlertDialog.Builder setTitle(CharSequence)	:- This method is used to set the title of AlertDialog.</li>\n
+            <li>public AlertDialog.Builder setMessage(CharSequence):-	This method is used to set the message for AlertDialog.</li>\n
+            <li>public AlertDialog.Builder setIcon(int)	:- This method is used to set the icon over AlertDialog.</li>\n
+</ul>\n\n
+    </string>
+    <string name="hello_blank_fragment5">
+        <big><b>List View</b></big>\n
+        <b>o</b>   Android ListView is a view which contains the group of items and displays in a scrollable list. ListView is implemented by importing android.widget.ListView class. ListView is a default scrollable which does not use other scroll view.\n
+<b>o</b>   ListView uses Adapter classes which add the content from data source (such as string array, array, database etc) to ListView. Adapter bridges data between an AdapterViews and other Views (ListView, ScrollView etc).\n
+    \n\n
+    </string>
+    <string name="hello_blank_fragment6">
+        <big><b>Grid View</b></big>\n
+<b>o</b>   GridView layout in one of the most useful layouts in android.\n <b>o</b>   Gridview is mainly useful when we want show data in grid layout like displaying images or icons. \n<b>o</b>   This layout can be used to build applications like image viewer, audio or video players in order to show elements in grid manner.\n
+\n\n
+    </string>
+    <string name="hello_blank_fragment7">
+        <big><b>Android DatePicker</b></big>\n
+        <b>o</b>   Android DatePicker is a widget to select date. It allows you to select date by day, month and year. Like DatePicker, android also provides TimePicker to select time.\n
+<b>o</b>   The android.widget.DatePicker is the subclass of FrameLayout class.\n
+\n\n
+        <big><b>Date Picker Hierarchy</b></big>\n
+    </string>
+    <string name="hello_blank_fragment7half">
+        \n\n
+        <big><b>Android DatePicker Example</b></big>\n
+        <b>o</b>   Android DatePicker is a widget to select date. It allows you to select date by day, month and year. Like DatePicker, android also provides TimePicker to select time.\n
+<b>o</b>   The android.widget.DatePicker is the subclass of FrameLayout class.\n
+\n\n
+        <big><b>Android TimePicker</b></big>\n
+        <b>o</b>   Android TimePicker widget is used to select date. It allows you to select time by hour and minute. You cannot select time by seconds.\n
+<b>o</b>   The android.widget.TimePicker is the subclass of FrameLayout class.\n
+\n\n
+        <big><b>Time Picker Hierarchy</b></big>\n
+
+    </string>
+    <string name="hello_blank_fragment7full">\n\n
+        <big><b>Android WebView</b></big>\n
+        <ul><li>Android WebView is used to display web page in android. The web page can be loaded from same application or URL. It is used to display online content in android activity.</li>\n
+            <li>Android WebView uses webkit engine to display web page.</li>\n
+            <li>The android.webkit.WebView is the subclass of AbsoluteLayout class.</li>\n
+            <li>The loadUrl() and loadData() methods of Android WebView class are used to load and display web page.</li>\n
+        </ul>\n\n
+        <big><b>WebView Hierarchy</b></big>\n
+
+    </string>
+    <string name="hello_blank_fragment7last">\n\n
+        <big><b>Android WebView Example</b></big>\n
+        Simple code to display PaperCrunch web page using Web View.
+\n\n\n
+    </string>
+    <string name="hello_blank_fragment8">
+        <big><b>Android Camera</b></big>\n
+        <b>o</b>   Camera is mainly used to capture picture and video. We can control the camera by using methods of camera api.\n
+<b>o</b>   Android provides the facility to work on camera by 2 ways:\n
+1.By Camera Intent\n
+2.By Camera API\n
+\n\n
+        <big><b>Understanding basic classes of Camera Intent and API</b></big>\n
+        <b>o</b>   There are mainly four classes that we are going to discuss.\n
+        <b>Intent</b>\n
+By the help of 2 constants of MediaStore class, we can capture picture and video without using the instance of Camera class.\n
+1.ACTION_IMAGE_CAPTURE\n
+2.ACTION_VIDEO_CAPTURE\n
+\n
+        <b>Camera</b>\n
+It is main class of camera api, that can be used to take picture and video.\n\n
+
+        <b>SurfaceView</b>\n
+It represents a surface view ore preview of live camera.\n\n
+
+        <b>MediaRecorder</b>\n
+It is used to record video using camera. It can also be used to record audio files as we have seen in the previous example of media framework.\n
+        \n\n
+        <big><b>Android Fragments Example</b></big>\n
+In this example, we are writing the simple code to capture image using camera and displaying the image using imageview.\n
+        \n\n
+
+    </string>
+
+    <string name="hello_blank_fragment9">
+        <big><b>Android Option Menu</b></big>\n
+    <b>o</b>   Android Option Menus are the primary menus of android. They can be used for settings, search, delete item etc.
+    \n<b>o</b>   Here, we are going to see two examples of option menus. First, the simple option menus and second, options menus with images.
+    \n<b>o</b>   Here, we are inflating the menu by calling the inflate() method of MenuInflater class. To perform event handling on menu items, you need to override onOptionsItemSelected() method of Activity class.
+       \n\n\n
+        <big><b>Android Option Menu Example </b></big>\n
+        <b>o</b>   Let\'s see how to create menu in android. Let\'s see the simple option menu example that contains three menu items.
+\n\n\n
+
+  <big><b>Android Context Menu</b> </big>      \n
+        <b>o</b>   Android context menu appears when user press long click on the element. It is also known as floating menu.
+\n<b>o</b>   It affects the selected content while doing action on it.
+\n<b>o</b>   It doesn\'t support item shortcuts and icons.
+\n
+        \n
+        \n
+ <big><b>Android Context Menu Example </b></big>
+\n
+        <b>o</b>   Let\'s see the simple example of Context menu in Android.
+\n
+ \n
+        \n
+<big><b>Android Popup Menu  </b></big>\n
+        <b>o</b>   Android Popup Menu displays the menu below the anchor text if space is available otherwise above the anchor text. It disappears if you click outside the popup menu.
+\n<b>o</b>   The android.widget.PopupMenu is the direct subclass of java.lang.Object class.
+\n<b>o</b>   Android Popup Menu Example: Let\'s see how to create popup menu in android.
+\n\n\n
+
+    </string>
+    <string name="hello_blank_fragment10">
+         <big><b>Android Button Example with Listener</b></big>\n
+        <b>o</b>   Android shared preference is used to store and retrieve primitive information. In android, string, integer, long, number etc. are considered as primitive data type.
+<b>o</b>   Android Shared preferences are used to store data in key and value pair so that we can retrieve the value on the basis of key.
+\n<b>o</b>   It is widely used to get information from user such as in settings.
+\n<b>o</b>   Android Preferences Example: Let\'s see a simple example of android shared preference.
+\n\n\n
+
+        <big><b>Android Internal Storage</b></big>\n
+        <b>o</b>   We are able to save or read data from the device internal memory. FileInputStream and FileOutputStream classes are used to read and write data into the file.
+\n<b>o</b>   Here, we are going to read and write data to the internal storage of the device.
+\n<b>o</b>   Android Internal Storage Example.
+\n
+\n\n
+
+    </string>
+
+    <string name="hello_blank_fragment11">
+    <big><b>Android Share App Data</b></big>\n
+        <b>o</b>   Android uses ACTION_SEND event of android.content.Intent class to send data from one activity to another and from current activity to outside the application. Intent class needs to specify the data and its type which is to be share.
+\n<b>o</b>   Most commonly, ACTION_SEND action sends URL of build-in Browser app. While sharing the data, Intent call createChooser() method which takes Intent object and specify the title of the chooser dialog. Intent.createChooser() method allows to display the chooser.
+\n
+        \n\n
+    </string>
+    <string name="hello_blank_fragment12">
+        <big><b>Web Service</b></big>\n
+        <b>o</b>   A web service is a standard for exchanging information between different types of applications irrespective of language and platform. For example, an android application can interact with java or .net application using web services.\n
+<b>o</b>   These are two major types:\n
+        <ul><li>Soap</li>\n
+        <li>Rest</li></ul>
+\n\n\n
+
+           <big><b>Android RESTful Web Service</b></big>\n
+       <b>o</b>   Before developing web services application, you must have basic knowledge of SOAP and RESTful web services. That is why, we are going to discuss basic points about web services such as what is web service and brief information about SOAP and Restful web services.
+\n<b>o</b>   Android RESTful Web Service Example
+
+\n\n\n
+
+        <big><b>JSON </b></big>\n
+         <b>o</b>   JSON (Javascript Object Notation) is a programming language . It is minimal, textual, and a subset of JavaScript. It is an alternative to XML.
+\n<b>o</b>   Android provides support to parse the JSON object and array.
+\n
+\n\n
+
+
+        <big><b>XML </b></big>\n
+         1.XML stands for eXtensible Markup Language.\n
+2.XML was designed to store and transport data.\n
+3.XML was designed to be both human- and machine-readable.\n
+\n\n
+
+
+
+    </string>
+    <string name="hello_blank_fragment13">
+
+        <big><b>Android Notifications</b></big>\n
+      <b>o</b>      Android Notification provides short, timely information about the action happened in the application, even it is not running. The notification displays the icon, title and some amount of the content text.
+\n<b>o</b>   These are Two types:\n<ul><li>
+        Local Notifications</li>\n
+        <li>Remote Notifications</li></ul>
+
+\n\n\n
+<big><b>Android Notification Properties </b></big>\n
+        The properties of Android notification are set using NotificationCompat.Builder object. Some of the notification properties are mention below:
+\n<b>o</b>   setSmallIcon(): It sets the icon of notification.
+\n<b>o</b>   setContentTitle(): It is used to set the title of notification.
+\n<b>o</b>   setContentText(): It is used to set the text message.
+\n<b>o</b>   setAutoCancel(): It sets the cancelable property of notification.
+\n<b>o</b>   setPriority(): It sets the priority of notification.
+
+\n\n\n
+
+        <big><b>Android Notification Example </b></big>\n
+        <b>o</b>   In this example, we will create a notification message which will launch another activity after clicking on it.
+
+
+\n\n\n
+
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+
+
+    <string name="helloios_blank_fragment1">
+
+        <big><b>Getting started with iOS</b></big>\n
+<b>Notes</b>\n
+1. You do not need an Apple Developer Account to start developing iOS Apps. The documentation and tools are free to download with your Apple ID. You can also sign and install apps on your personal devices using that same Apple ID. If you want to distribute or sell apps on the App Store, you need to enroll the Apple Developer Program starting at 99 USD (This is the price at the time of writing and may change). This will also add code-level support incidents and beta testing for your apps via TestFlight.
+\n
+2- Creating an Apple ID without a credit card requires a short process. If you don\'t mind associating a payment method as part of the sign up, go to https://appleid.apple.com/
+\n
+        \n
+
+<b>Related Stack Overflow tags</b>\n
+        <ul><li>xcode Apple\'s IDE (Integrated Development Environment) for developing iOS and macOS Apps</li>\n
+<li>swift-language One of the main languages you can use to develop in iOS.</li>\n
+        <li>objective-c-language One of the main languages you can use to develop in iOS.</li>\n
+<li>cocoa An Apple API for developing in iOS and macOS.</li>\n
+<li>sprite-kit For 2D animated graphics.
+</li>\n<li>core-data To store and retrieve relational data.</li>\n</ul>
+
+
+    </string>
+    <string name="helloios_blank_fragment2">
+
+        <big><b>Create your first program in Swift 3</b></big>\n
+Here I am presenting how to create first basic program in Swift 3 language. First you need to have any basic programming language knowledge or not having then be ready to learn it from beginning.
+\n\n
+<b>Requirements for developments:</b>
+\n
+<ul><li>MAC OS - Version 10.11.6 or later for new Xcode 8.2
+    </li>\n<li>Xcode - Version 8.2 Apple Document for Xcode introduction.</li>\n
+        <li>Xcode 8.2 has new Swift 3 language features with new iOS 10 compatible APi\'s.</li>
+</ul>
+\n\n\n<big><b>Create your first program</b></big>\n
+
+1. First go to Application and open your Xcode 8.2.
+\n
+2. After that you will see the screen
+\n
+3. Then choose Create new Project and after that you will see next screen
+\n
+4. Choose project This is also very important part inside Xcode for selecting our project type. We need to choose our project according to types of OS. There are five types of options available on the top side:\n
+i)   iOS\n
+ii)  watchOS\n
+iii) macOS\n
+iv)  Cross-platform\n
+Now we are choosing iOS platform for development and creating very basic project with the single view application option:\n
+
+5. Then we need to give Product Name, this will represent your Bundle name and application name.\n
+        Application name you can change later as per your requirements. Then we need to click \"Create\".\n
+
+6. Inside this class you can see the file name is ViewController.swift and inside the class the name is also ViewController which is inheritance by the UIViewController super class and finally we\'re creating our first variable which name is myString of the type \'String\'.\n\n Add the following under \'super.viewDidLoad()\'
+\nlet myString = \"Hello, World!\"\n
+We are going to print the content of this variable. First, select your simulator type at the top left hand side of the screen and then click on the \"Run\" button.\n
+After that your output will be shown on terminal which is on bottom right hand side. Congratulations, This is your first Hello World program inside Xcode
+\n\n
+
+
+
+    </string>
+
+    <string name="helloios_blank_fragment3">
+
+        <big><b>Creating a default Single View Application</b></big>\n
+To develop an application for iOS, you should start with an application called Xcode. There are other alternative tools you can use, but Xcode is Apple\'s official tool. Note, however, that it only runs on macOS. The latest official version is Xcode 8.3.3 with Xcode 9 (currently in beta) due to be released later this year.
+\n\n
+1. Boot up your Mac and install Xcode from the App Store if it\'s not already installed.
+
+\n(If you prefer not to use the App Store or have problems, you can also download Xcode from the Apple Developer website, but make sure that you select the latest release version and not a beta version.)
+
+\n\n
+2. Open Xcode.
+\n
+The window presents you with the following options:
+
+        \n<b>o</b>  <b>Getting started with a playground:</b> This was introduced with the Swift language and Xcode 6. It\'s an interactive area which can be used to write small pieces of code to check runtime changes. It\'s a great way for Swift learners to be introduced to new Swift features.
+        \n<b>o</b>  <b>Create a new Xcode project:</b> Choose this option, which creates a new project with default configuration.
+        \n<b>o</b>  <b>Check out an existing project:</b> This is used to check out a project from a repository location, for example, check out a project from SVN.\n\n
+3. Select the second option Create a new Xcode project and Xcode will ask you to do some initial project setup:
+\n
+This wizard is used to select your project template. There are 5 options:
+
+\n<b>o</b>   iOS: Used to create iOS apps, libraries and frameworks
+\n<b>o</b>   watchOS: Used to create watchOS apps, libraries and frameworks
+\n<b>o</b>   tvOS: Used to create tvOS apps, libraries and frameworks
+\n<b>o</b>   macOS: Used to create macOS apps, libraries, frameworks, packages, AppleScripts, etc.
+\n<b>o</b>   Cross-platform: Used to create cross-platform apps, templates and In-App Purchase Contents
+\nYou can see that there are many different templates for your application. These templates are helpful to boost your development; they are pre-built with some basic project setups like UI interfaces and class files.
+
+\nHere, we\'ll use the first option, iOS.
+
+1) Master-Detail Application:\n
+
+This template contains a combined master and detail interface: the master contains objects which are related to the detail interface. Selecting objects in the master will change the details interface. You can see this kind UI in the Settings, Notes and Contacts applications on the iPad.
+\n
+2) Page-Based Application:\n
+
+This template is used to create the page-based application. Pages are different views held by one container.
+\n
+3) Single View Application:\n
+
+This is a normal application development template. This is good for beginners to learn application flow.
+\n\n
+4) Tabbed Application:\n
+
+This template creates tabs at the bottom part of an application. Each tab has a different UI and a different navigation flow. You can see this template used in apps like Clock, iTunes Store, iBooks and App Store.
+\n
+5) Game:\n
+
+This is a starting point for game development. You can go further with game technologies like SceneKit, SpriteKit, OpenGL ES and Metal.
+\n
+4. In this example, we will start with Single View Application\n
+
+
+The wizard helps you to define project properties:
+
+        \n<b>o</b>  <b>Product Name:</b> The name of the project / application
+        \n<b>o</b>  <b>Organization Name:</b> The name of the organization in which you are involved
+        \n<b>o</b>  <b>Organization Identifier:</b> The unique organization identifier which is used in the bundle identifier. It is recommended to follow reverse domain name service notation.
+        \n<b>o</b>  <b>Bundle Identifier:</b> This field is very important. It is based on your project name and organization identifier, choose wisely. The bundle identifier will be used in the future to install the application on a device and upload the app to iTunes Connect (which is the place we upload apps to be published on the App Store). It’s a unique key to identify your application.
+        \n<b>o</b>  <b>Language:</b> The programming language which you would like to use. Here you can change Objective-C to Swift if it’s not selected.
+        \n<b>o</b>  <b>Devices:</b> Supported devices for your application that can be changed later. It shows iPhone, iPad, and Universal. Universal applications support iPhone and iPad devices, and it’s recommended to select this option when it’s not necessary to run the app on only one kind of device.
+        \n<b>o</b>  <b>Use Core Data:</b> If you would like to use Core Data Model in your project then mark it as selected, and it will create a file for the .xcdatamodel . You can also add this file later on if you don\'t know in advance.
+        \n<b><b>o</b>  Include Unit Tests:</b> This configures the unit test target and creates classes for unit testing
+        \n<b><b>o</b>  Include UI test:</b> This configures the UI test target and creates classes for UI testing
+\nClick on Next and it will ask you for a location where you want to create project directory.
+\nClick on Create and you will see the Xcode UI with an already defined project setup. You can see some classes and Storyboard files.
+\n
+This is a basic template for a Single View Application.
+\n
+At the top left of the window, check that a simulator is selected (e.g. \"iPhone 6\" as shown here) and then press the triangular RUN button.
+
+\n
+
+5. A new application will open—Simulator (this may take some time the first time you run it and you may need to try twice if you see an error the first time). This application provides us with device simulation for created applications. It almost looks like a real device! It contains some applications like a real device.\nYou can simulate orientations, location, shake gesture, memory warnings, In-Call Status bar, finger touch, lock, reboot, home etc.
+\n
+You will see a plain white application because we have not made any changes to the template yet.
+\n
+    </string>
+    <string name="helloios_blank_fragment4">
+
+        <big><b>Starting a new project</b></big>\n
+        <ul><li>When the Xcode welcome screen comes up, choose Create a new Xcode project. Alternatively, you could do File > New > Project... from the Xcode menu if you already have it open.</li>
+\n
+
+        <li>Choose a Single View Application and click Next.</li>
+\n
+
+        <li>Write \"HelloWorld\" for the Product Name (or whatever you want really) and under Language, make sure Swift is selected.\n
+
+<b>o</b>  Universal means that your app will run on both the iPhone and iPad.\n
+<b>o</b>  Use Core Data refers to persistent data storage, which is not needed in our Hello World app.\n
+<b>o</b>  We will not be doing Unit Tests or UI Tests in this example, but it doesn\'t hurt to get into the habit of adding them.\n
+        </li>
+
+            <li>Choose an existing folder or create a new one where you will save your Xcode projects. This will be the default in the future. We created one here called \"Xcode Projects\". Then click Create. You can select Source Control if you like (used when syncing to sites like GitHub), but we won\'t be needing it in this example.</li></ul>\n
+
+
+
+    </string>
+    <string name="helloios_blank_fragment5">
+
+        <big><b>Adding a label</b></big>\n
+<b>o</b>  This is the file structure of an Xcode project.
+\n
+<b>o</b>  Select Main.storyboard in the Project Navigator.
+
+\n
+<b>o</b>  Type \"label\" in the search field of the Object Library in the bottom right of Xcode. Then drag the UILabel onto the storyboard View Controller. Place it generally in the region of the top left corner.
+
+\n
+<b>o</b>  Make sure the label is selected on the storyboard and then in the Attributes Inspector, change the text to \"Hello, World!\" You will then have to resize and reposition the label on the storyboard since the text length is longer now.
+
+\n
+<b>o</b>  Alternatively, double-click the label on the storyboard to edit it to be \"Hello, World!\". At any rate, the storyboard should look something like this:
+\n
+    </string>
+    <string name="helloios_blank_fragment6">
+        <big><b>Adding Code</b></big>\n
+<b>o</b>  Select ViewController.swift in the Project Navigator.
+\n
+<b>o</b>  enter image description here
+\n
+<b>o</b>  Add print(\"Successfully created my first iOS application.\n") to the viewDidLoad() method. It should look something like this.
+  \n
+    </string>
+    <string name="helloios_blank_fragment7">
+
+        <big><b>Running the app in the simulator</b></big>\n
+<b>o</b>  Press the Run button to build and run the app. In this example the current simulator device (referred to as a \"scheme\") defaulted to the iPhone 6s Plus. Newer versions of Xcode will default to newer schemes. You can also choose other schemes by clicking the name. We will just stick with the default.
+\n
+<b>o</b>  The simulator will take some time to start on the first run. Once running, it should look like this:
+\n
+<b>o</b>  In the simulator menu, you can choose Window > Scale to make it smaller, or press ⌘cmd + 1/2/3/4/5 for 100% / 75% / 50% / 33% / 25% scale respectively..
+\n
+<b>o</b>  The Xcode debug area (at the bottom) should have also printed \"Successfully created my first iOS application.\" to the console. \"Successfully created my first iOS application.\" message is the string you printed programmatically in the Add code part.
+\n
+    </string>
+    <string name="helloios_blank_fragment8">
+
+        <big><b>Going on</b></big>\n
+You should learn about Auto Layout constraints next. These help you to position your controls on the storyboard so that they look good on any device size and orientation.
+\n\n
+        <b>Xcode Interface</b>\n
+
+<b>o</b>  In the Xcode, you have three separate areas of working - Navigators (in red), Debug area(in green) and Utilities(in blue).
+\n
+<b>o</b>  The workspace window always includes the editor area. When you select a file in your project, its contents appear in the editor area, where Xcode opens the file in an appropriate editor. For example, in the image above, the editor area MainViewController.swift, a swift code file that is selected in the Navigator area on the left of the workspace window.
+\n
+    </string>
+    <string name="helloios_blank_fragment9">
+        <big><b>Navigator Area</b></big>\n
+
+The navigator window contains the following eight options:
+
+        \n<b>o</b>  <b>Project navigator.</b> Add, delete, group, and otherwise manage files in your project, or choose a file to view or edit its contents in the editor area.
+        \n<b>o</b>  <b>Symbol navigator.</b> Browse the symbols in your project as a list or hierarchy. Buttons on the left of the filter bar let you limit the shown symbols to a combination of only classes and protocols, only symbols in your project, or only containers.
+        \n<b>o</b>  <b>Find navigator</b> Use search options and filters to quickly find any string within your project.
+        \n<b>o</b>  <b>Issue navigator.</b> View issues such as diagnostics, warnings, and errors found when opening, analyzing, and building your project.
+        \n<b>o</b>  <b>Test navigator.</b> Create, manage, run, and review unit tests.
+        \n<b>o</b>  <b>Debug navigator.</b> Examine the running threads and associated stack information at a specified point or time during program execution.
+        \n<b>o</b>  <b>Breakpoint navigator.</b> Fine-tune breakpoints by specifying characteristics such as triggering conditions.
+        \n<b>o</b>  <b>Report navigator.</b> View the history of your build, run, debug, continuous integration, and source control tasks.</string>
+    <string name="helloios_blank_fragment10">
+
+        <big><b>The Editors</b></big>\n
+Most development work in Xcode occurs in the editor area, the main area that is always visible within the workspace window. The editors you use most often are:
+
+        \n<b>o</b>  <b>Source editor.</b> Write and edit source code.
+        \n<b>o</b>  <b>Interface Builder.</b> Graphically create and edit user interface files.
+        \n<b>o</b>  <b>Project editor.</b> View and edit how your apps should be built, such as by specifying build options, target architectures, and app entitlements.
+\nConfigure the editor area for a given task with the editor configuration buttons on the right side of the toolbar:
+
+        \n<b>o</b>  <b>Standard Editor.</b> Fills the editor area with the contents of the selected file.
+        \n<b>o</b>  <b>o</b>  <b>Assistant Editor.</b> Presents a separate editor pane with content logically related to content in the standard editor pane. You can also change the content.
+        \n<b>o</b>  <b>Version Editor.</b> Shows the differences between the selected file in one pane and another version of that same file in a second pane. This editor works only when your project is under source control.
+
+    </string>
+    <string name="helloios_blank_fragment11">
+
+        <big><b>Resources and Elements in Utilities Area</b></big>\n
+The utilities area on the far right of the workspace window gives you quick access to these resources: Inspectors, for viewing and modifying characteristics of the file open in an editor Libraries of ready-made resources for use in your project
+\n
+The top panel of the utilities area displays inspectors. The bottom pane gives you access to libraries.
+\n
+The first panel (highlighted in red) is the Inspector bar, use it to choose the inspector best suited to your current task. Two inspectors are always visible in the inspector bar (additional inspectors are available in some editors):
+
+        \n<b>o</b>  <b>File inspector.</b> View and manage metadata for the selected file. Typically you will localize storyboards and other media files and change settings for user interface files.
+        \n<b>o</b>  <b>Quick Help.</b> View details about a symbol, an interface element, or a build setting in the file. For example, Quick Help displays a concise description of a method, where and how the method is declared, its scope, the parameters it takes, and its platform and architecture availability.
+\nUse the Library bar (the second highlighted in red) to access ready-to-use libraries of resources for your project:
+
+        \n<b>o</b>  <b>File templates.</b> Templates for common types of files and code constructs.
+        \n<b>o</b>  <b>Code snippets.</b> Short pieces of source code for use in your software, such as class declarations, control flows, block declarations, and templates for commonly used Apple technologies.
+        \n<b>o</b>  <b>Objects.</b> Items for your app’s user interface.
+        \n<b>o</b>  <b>Media.</b> Files containing graphics, icons, sound files, and the like.
+\nTo use a library, drag it directly to the appropriate area. For example, to use a code snippet, drag it from the library to the source editor; to create a source file from a file template, drag its template to the project navigator.
+
+\nTo restrict the items displayed in a selected library, type relevant text into the text field in the Filter bar (the bottom pane). For example, type “button” in the text field to show all the buttons in the Objects library.
+\n\n
+    </string>
+    <string name="helloios_blank_fragment12">
+
+        <big><b>Manage Tasks with the Workspace Toolbar</b></big>\n
+The toolbar at the top of the workspace window provides quick access to frequently used commands. The Run button builds and runs your products. The Stop button terminates your running code. The Scheme menu lets you configure the products you want to build and run. The activity viewer shows the progress of tasks currently executing by displaying status messages, build progress, and other information about your project.
+\n
+The editor configuration buttons (the first group of three buttons) let you configure the editor area, and the workspace configuration buttons (the second group of three buttons) hide or show the optional navigator, debug, and utilities areas.
+  \n
+    </string>
+
+</resources>
